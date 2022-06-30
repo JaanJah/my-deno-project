@@ -2,7 +2,6 @@
 
 Just a project to play around with Deno.
 
-
 ### Start server
 
 ```bash
@@ -57,4 +56,13 @@ deno doc factorial.ts
 ```bash
 deno bundle server.ts server.bundle.js
 deno run --allow-net server.bundle.js
+```
+
+### Run format and linter
+
+```bash
+# Deno formatter
+deno fmt
+# Deno linter
+deno lint
 ```
