@@ -45,3 +45,16 @@ benchmark                                time (avg)             (min … max)   
 --------------------------------------------------------------------------- -----------------------------
 handler("http://localhost:3000/10")    4.93 µs/iter   (3.95 µs … 256.39 µs)   4.24 µs  22.46 µs  27.47 µs
 ```
+
+### Generate docs
+
+```bash
+deno doc factorial.ts
+```
+
+### Generate bundle
+
+```bash
+deno bundle server.ts server.bundle.js
+deno run --allow-net server.bundle.js
+```
